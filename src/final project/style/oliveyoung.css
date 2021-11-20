@@ -1,0 +1,189 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  width: 1320px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+nav {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  border-bottom: solid 1px lightgray;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav__title {
+  padding-right: 150px;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+#nav__menu {
+  height: 100px;
+  width: 1150px;
+  margin-left: 100px;
+  margin-right: auto;
+  display: flex;
+}
+#nav__menu ul li {
+  list-style-type: none;
+  background-color: none;
+  float: left;
+  line-height: 35px;
+  vertical-align: middle;
+  text-align: center;
+}
+#nav__menu .menulink {
+  text-decoration: none;
+  color: rgb(15, 55, 56);
+  display: block;
+  width: 150px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: verdana;
+  text-align: center;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+#nav__menu .menucs {
+  text-decoration: none;
+  color: rgb(15, 55, 56);
+  display: block;
+  width: 150px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: verdana;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#nav__menu .selected {
+  text-decoration: none;
+  color: rgb(15, 55, 56);
+  border-bottom: 1px solid white;
+  display: block;
+  width: 180px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: verdana;
+  outline: 0;
+  text-align: center;
+  margin-right: 100px;
+}
+
+#nav__menu .menulink:hover {
+  color: white;
+  background-color: rgb(15, 55, 56);
+}
+#nav__menu .menucs:hover {
+  color: white;
+  background-color: rgb(15, 55, 56);
+}
+
+#overtxt {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 14px;
+  background-color: rgb(255, 255, 255);
+  width: 625px;
+  height: 270px;
+}
+#nav__menu > ul > li:hover #overtxt {
+  opacity: 1;
+  visibility: visible;
+}
+#nav__menu > ul > li > ul:hover #overtxt {
+  opacity: 1;
+  visibility: visible;
+}
+#overtxt li {
+  margin-top: 1px;
+  width: 200px;
+  text-align: left;
+}
+#overtxt ul > li {
+  text-align: left;
+}
+#overtxt_menu {
+  color: rgb(250, 250, 250);
+}
+/* 상품 목록 */
+.clear {
+  clear: both;
+}
+
+#content_box {
+  padding-top: 50px;
+  color: #444444;
+  font-family: "돋움";
+}
+
+#content_box h2 {
+  float: left;
+  margin-left: 620px;
+  color: black;
+}
+
+#content_box p {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+section a:hover {
+  background-color: rgb(127, 214, 127);
+}
+
+.category {
+  float: left;
+}
+
+.items {
+  width: 232px;
+  float: left;
+  margin: 30px 0 0 25px;
+  list-style: none;
+}
+
+.items .a {
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+}
+
+.items .b {
+  font-weight: bold;
+  color: black;
+  margin-top: 8px;
+}
+
+.items .c {
+  font-size: 12px;
+  margin-top: 20px;
+  line-height: 130%;
+}
+
+img {
+  width: 220px;
+  height: 100%;
+}
