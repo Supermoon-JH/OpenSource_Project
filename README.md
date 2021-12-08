@@ -1,4 +1,4 @@
-Lab 1
+
 ===
 ## Web for vegan
 >**Trouble**: Vegans have to look closely the lists of raw materials when they buy some items.   
