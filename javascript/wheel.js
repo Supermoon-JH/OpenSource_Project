@@ -1,6 +1,6 @@
 window.onload = function () {
     let elm = ".box";
-    $(elm).each(function (index) {
+    $(elm).each(function (idx) {
         // 개별적으로 Wheel 이벤트 적용
         $(this).on("mousewheel DOMMouseScroll", function (e) {
             e.preventDefault();
@@ -12,7 +12,7 @@ window.onload = function () {
             } else if (event.detail)
                 delta = -event.detail / 3;
             let moveTop = $(window).scrollTop();
-            let elmSelecter = $(elm).eq(index);
+            let elmSelecter = $(elm).eq(idx);
             // 마우스휠을 위에서 아래로
             if (delta < 0) {
                 if ($(elmSelecter).next() != undefined) {
