@@ -1,5 +1,5 @@
+# Final Project
 
-===
 ## Web for vegan
 >**Trouble**: Vegans have to look closely the lists of raw materials when they buy some items.   
 >**Solution**: We will make a web that can help finding apporopriate items for vegans.
